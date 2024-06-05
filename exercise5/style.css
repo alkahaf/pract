@@ -1,0 +1,115 @@
+@import url(https://db.onlinewebfonts.com/c/0d2fc67532a7c000fa3b6d66f0a70103?family=Monorama);
+@font-face {
+    font-family: "Monorama";
+    src: url("https://db.onlinewebfonts.com/t/0d2fc67532a7c000fa3b6d66f0a70103.eot");
+    src: url("https://db.onlinewebfonts.com/t/0d2fc67532a7c000fa3b6d66f0a70103.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0d2fc67532a7c000fa3b6d66f0a70103.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0d2fc67532a7c000fa3b6d66f0a70103.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0d2fc67532a7c000fa3b6d66f0a70103.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0d2fc67532a7c000fa3b6d66f0a70103.svg#Monorama")format("svg");
+}
+:root {
+    --navcolor: rgb(213, 150, 215);
+    --bodybg: rgba(52, 129, 62, 0.66);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: var(--navcolor);
+}
+
+nav ul li {
+    list-style: none;
+    padding: 35px;
+
+}
+
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box1 {
+    font-size: 200%;
+    border: 4px solid black;
+    /* height: 900px; */
+    /* width: 800px; */
+    margin: 40px;
+    margin-left: 25vh;
+    padding: 10px;
+    width: 400px;
+    /* Adjust width as needed */
+    border: 1px solid #969494;
+    /* Add border for better visualization */
+    padding: 10px;
+    /* Add padding for content spacing */
+    height: 900px;
+    overflow: auto;
+    background-color: rgb(210, 42, 42);
+}
+
+.box2 {
+    font-size: 200%;
+    border: 1px solid rgb(136, 136, 136);
+    width: 400px;
+    margin: 40px;
+    margin-left: 25vh;
+    height: 900px;
+    overflow: auto;
+    /* margin-left: 600px; */
+    padding: 10px;
+    background-color: rgb(116, 116, 242);
+   
+}
+
+.box3{
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    padding: 40px;
+    text-align: center;
+    font-size: 2cm;
+   
+}
+
+.parentcon {
+    background-color: var(--bodybg);
+    display: flex;
+}
+
+.container {
+    position: relative; /* Make the container position relative for absolute positioning */
+  }
+  
+  .bottom-right-icon {
+    position: fixed;  /* Make the icon absolutely positioned */
+    bottom: 10px;        /* Set bottom margin from the bottom edge */
+    right: 10px;         /* Set right margin from the right edge */
+    width: 80px;         /* Adjust width as needed */
+    height: 80px;        /* Adjust height as needed */
+  }
+  .confooter{
+    margin-top: 50px;
+    text-align: center;
+    border: 2px solid ;
+    height: 100px;
+    width: auto;
+
+  }
+  body{
+    
+    font-family: "Monorama";
+  }
